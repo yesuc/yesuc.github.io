@@ -14,7 +14,7 @@ app.get('/', (request, response) => {
 liveServer.start({
   port: 3001,
   host: "127.0.0.1",
-  root: "public"
+  root: "docs"
   });
 
 app.listen(port, () => console.log(`Listening on http://localhost:${port}`));
